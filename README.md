@@ -16,6 +16,23 @@ Everyone who's run Arch Linux long enough knows the **inevitable moment** — a 
 
 ---
 
+## ⚙️ Core Tech Stack
+
+Go — main language for CLI logic + automation
+
+Cobra — powerful CLI framework
+
+Arch Linux — primary target OS
+
+Btrfs — snapshot-aware FS with subvolume support
+
+Systemd-boot — default bootloader focus (GRUB optional)
+
+Snapper/Timeshift — snapshot creation and rollback
+
+Zsh/Bash menus — interactive rescue CLI
+
+--- 
 ## 🚀 Goal
 
 Create a streamlined **rescue toolkit** that can be booted or chrooted into to:
